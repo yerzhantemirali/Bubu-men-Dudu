@@ -116,6 +116,8 @@
 
 ## Демо & UX
 
+<img width="3432" height="2146" alt="image" src="https://github.com/user-attachments/assets/60f4b50f-87ed-460f-96ed-400ca641de97" />
+
 <img width="3368" height="1902" alt="image" src="https://github.com/user-attachments/assets/13f397d1-84a5-48a3-b38d-4594fdba4e8e" />
  
 ## Надежность & этика  

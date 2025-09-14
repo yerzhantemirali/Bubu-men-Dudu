@@ -121,22 +121,35 @@
 <img width="3368" height="1902" alt="image" src="https://github.com/user-attachments/assets/13f397d1-84a5-48a3-b38d-4594fdba4e8e" />
 
 
-## Запуск локально
+## 🚀 Запуск локально
 
 ### 1. Клонировать репозиторий
 ~~~bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/yerzhantemirali/Bubu-men-Dudu.git
 cd your-repo-name
 ~~~
 
-### 2. Запустить бэкенд (FastAPI)
+### 2. Создать и активировать виртуальное окружение (Python)
+~~~bash
+python3 -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+~~~
+
+### 3. Установить зависимости
+~~~bash
+pip install --upgrade pip
+pip install -r requirements.txt
+~~~
+
+### 4. Запустить бэкенд (FastAPI)
 ~~~bash
 cd backend
 uvicorn main:app --reload
 ~~~
 - Бэкенд будет доступен по адресу: `http://127.0.0.1:8000`.
 
-### 3. Запустить фронтенд (React) в новом терминале
+### 5. Запустить фронтенд (React) в новом терминале
 ~~~bash
 cd frontend
 npm install   # только при первом запуске
@@ -144,8 +157,8 @@ npm run dev
 ~~~
 - Фронтенд будет доступен по адресу: `http://localhost:3000`.
 
-### 4. Открыть в браузере
-Перейти  `http://localhost:3000`
+### 6. Открыть в браузере
+Перейти 👉 `http://localhost:3000`
 
  
 ## Надежность & этика  
